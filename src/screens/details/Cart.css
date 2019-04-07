@@ -1,0 +1,17 @@
+.flex-cartHeaderContainer {
+    display: flexbox;
+    flex-direction: row;
+}
+
+.flex-itemDetailsContainer {
+    display: flex;
+    align-items: left !important;
+}
+
+.flex-itemDetails {
+    flex: 1;
+    padding: 1px;
+    height: 50px;
+    text-align: left;
+    text-transform: capitalize;
+}
