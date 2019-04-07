@@ -4,7 +4,7 @@ import Input from "@material-ui/core/Input";
 import Button from "@material-ui/core/Button";
 import Select from "@material-ui/core/Select";
 import "./AddressForm.css";
-import StateSelect from "./StateSelect";
+import SelectState from "./SelectState";
 import InputLabel from "@material-ui/core/InputLabel";
 import MenuItem from "@material-ui/core/MenuItem";
 
