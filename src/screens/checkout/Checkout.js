@@ -58,6 +58,13 @@ class Checkout extends Component {
             activeStep: state.activeStep + 1
         }));
     };
+
+    handleBack = () => {
+        this.setState(state => ({
+            activeStep: state.activeStep - 1
+        }));
+    };
+
 }
 
 export default withStyles(styles)(Checkout);
