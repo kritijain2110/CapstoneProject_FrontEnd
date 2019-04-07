@@ -4,7 +4,7 @@ import { withRouter } from "react-router-dom";
 import { Redirect } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Cart from "./Cart";
-import RestaurantDetails from "./RestaurantDetails";
+import RestaurantInformation from "./RestaurantInformation";
 import Header from "../../common/header/Header";
 import "./Details.css";
 import MenuList from "./MenuList";
@@ -19,7 +19,7 @@ class Details extends Component {
     }
 
     state = {
-        restaurantDetails: {},
+        RestaurantInformation: {},
         addressDetails: {},
         categories: [],
         categoriesArr: [],
@@ -90,13 +90,13 @@ class Details extends Component {
         });
 
         this.setState({
-            restaurantDetails: restaurantIdData,
+            RestaurantInformation: restaurantIdData,
             addressDetails: restaurantIdData.address,
             categories: categoryList,
             restaurantName: restaurantIdData.restaurant_name,
             restaurantId: restaurantIdData.id
         });
-        console.log(this.state.restaurantDetails);
+        console.log(this.state.RestaurantInformation);
         console.log(this.state.restaurantName);
         console.log(this.state.categoriesArr);
     };
@@ -149,8 +149,8 @@ class Details extends Component {
                                 backgroundColor: "#e6e6e6"
                             }}
                         >
-                            <RestaurantDetails
-                                details={this.state.restaurantDetails}
+                            <RestaurantInformation
+                                details={this.state.RestaurantInformation}
                                 address={this.state.addressDetails}
                                 categories={this.state.categories}
                             />
@@ -160,7 +160,7 @@ class Details extends Component {
                 <div className="flex-categoryCartContainer">
                     <div className="categoryContainer" />
                     <MenuList
-                        details={this.state.restaurantDetails}
+                        details={this.state.RestaurantInformation}
                         categories={this.state.categories}
                         items={this.state.categoriesArr}
                         addItem={this.addItem.bind(this)}
