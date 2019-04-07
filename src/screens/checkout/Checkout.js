@@ -53,3 +53,5 @@ class Checkout extends Component {
         snackboxMessage: ""
     };
 }
+
+export default withStyles(styles)(Checkout);
