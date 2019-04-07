@@ -65,6 +65,12 @@ class Checkout extends Component {
         }));
     };
 
+    handleReset = () => {
+        this.setState({
+            activeStep: 0
+        });
+    };
+
 }
 
 export default withStyles(styles)(Checkout);
