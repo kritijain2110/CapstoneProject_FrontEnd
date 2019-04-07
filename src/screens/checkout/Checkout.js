@@ -52,6 +52,12 @@ class Checkout extends Component {
         total: 0,
         snackboxMessage: ""
     };
+
+    handleNext = () => {
+        this.setState(state => ({
+            activeStep: state.activeStep + 1
+        }));
+    };
 }
 
 export default withStyles(styles)(Checkout);
