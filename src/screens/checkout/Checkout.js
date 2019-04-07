@@ -291,9 +291,6 @@ class Checkout extends Component {
         const { activeStep } = this.state;
         return (
             <div>
-                <div>
-                    <Header/>
-                </div>
                 <div style={{ display: "inline-flex" }}>
                     <div className="order-summary" onClick={this.postData}>
                         <PlaceOrder
