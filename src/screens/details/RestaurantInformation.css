@@ -1,0 +1,63 @@
+.details {
+    margin-bottom: 24px;
+    background: #e6e6e6;
+}
+.leftDetails {
+    position: absolute;
+    padding-bottom: 17px;
+    padding-left: 40px;
+    padding-right: 100px;
+    padding-top: 20px;
+    background: #e6e6e6;
+}
+.rightDetails {
+    position: absolute;
+    left: 40%;
+    padding-top: 20px;
+    background: #e6e6e6;
+}
+.flex-containerDetails {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    background: #e6e6e6;
+}
+.flex-countsContainer {
+    display: -webkit-flex;
+    display: flex;
+}
+.restaurantImage {
+    height: 200px;
+    width: 300px;
+}
+.countElements {
+    padding-right: 230px;
+}
+.subHeaders {
+    color: #818181;
+    font-size: xx-small;
+}
+
+@media (max-width: 600px) {
+    .flex-containerDetails {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background: #e6e6e6;
+    }
+    .rightDetails {
+        margin-left: 0px;
+        padding-left: 42px;
+        padding-right: 42px;
+        background: #e6e6e6;
+    }
+    .countElements {
+        padding-left: 40px;
+        padding-right: 40px;
+        text-align: center;
+    }
+    .flex-countsContainer {
+        align-items: center;
+        text-align: center;
+    }
+}
