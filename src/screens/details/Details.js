@@ -5,12 +5,11 @@ import { Redirect } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Cart from "./Cart";
 import RestaurantInformation from "./RestaurantInformation";
-import Header from "../../common/header/Header";
 import "./Details.css";
 import MenuList from "./MenuList";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
-import PlaceOrderCard from "../checkout/PlaceOrderCard";
+
 
 // component
 class Details extends Component {
