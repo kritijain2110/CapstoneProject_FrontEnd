@@ -3,13 +3,17 @@ import PropTypes from 'prop-types';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
+import Typography from '@material-ui/core/Typography';
 import InputBase from '@material-ui/core/InputBase';
+import Badge from '@material-ui/core/Badge';
 import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
 import { fade } from '@material-ui/core/styles/colorManipulator';
 import { withStyles } from '@material-ui/core/styles';
+import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
 import AccountCircle from '@material-ui/icons/AccountCircle';
+import Avatar from '@material-ui/core/Avatar';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import logo from '../../assets/logo.SVG';
 import Button from '@material-ui/core/Button';
@@ -150,9 +154,8 @@ class Header extends React.Component {
 
 
                 <div>
-
-                    <Link to={"/profile"}><MenuItem onClick={this.handleMenuClose }>
-                        My Profile</MenuItem></Link>
+                 <MenuItem onClick={this.handleMenuClose }>
+                        My Profile</MenuItem>
                 </div>
 
                 <hr/>
