@@ -8,7 +8,6 @@ import CardContent from '@material-ui/core/CardContent';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import { FontAwesomeIcon } from '@fontawesome/react-fontawesome'
 import withWidth, { isWidthUp } from '@material-ui/core/withWidth';
 
 class Home extends React.Component {
