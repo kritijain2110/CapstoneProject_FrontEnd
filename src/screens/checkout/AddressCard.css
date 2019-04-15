@@ -1,0 +1,7 @@
+.btn-check-active {
+    color: rgb(15, 127, 18) !important;
+}
+
+.btn-check-disabled {
+    color: grey !important;
+}

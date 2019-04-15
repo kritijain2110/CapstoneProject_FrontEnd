@@ -1,0 +1,12 @@
+.flex-itemDetailsContainer {
+    display: flex;
+    align-items: center;
+}
+
+.flex-itemDetails {
+    flex: 1;
+    padding: 1px;
+    height: 50px;
+    text-align: left;
+    text-transform: capitalize;
+}

@@ -1,0 +1,36 @@
+.root {
+    position: absolute;
+}
+
+.flex-categoryCartContainer {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 60%;
+    /* display: flex;
+    flex-direction: row; */
+}
+.categoryContainer {
+    width: 50%;
+    /* padding: 5px; */
+}
+.cartContainer {
+    position: absolute;
+    top: 56%;
+    left: 68%;
+    width: 30%;
+    padding: 5px;
+}
+@media (max-width: 600px) {
+    .flex-categoryCartContainer {
+        flex-direction: column;
+    }
+    .categoryContainer {
+        width: 100%;
+        padding: 5px;
+    }
+    .cartContainer {
+        width: 100%;
+        padding: 5px;
+    }
+}
