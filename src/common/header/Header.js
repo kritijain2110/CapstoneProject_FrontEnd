@@ -18,7 +18,7 @@ import MoreIcon from '@material-ui/icons/MoreVert';
 import logo from '../../assets/logo.SVG';
 import Button from '@material-ui/core/Button';
 import Basic from './Basic.js';
-
+import Home from '../../screens/home/Home';
 
 import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router-dom';
 
